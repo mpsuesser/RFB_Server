@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6370420874325741331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861982635638590519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b484d2a9e27e4246940c90a26d14ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  chargeSpeed: 20
+  chargeDuration: 5
+  throwRange: 60
+  chargeCooldown: 20
+  tackleCooldown: 3
+  stiffCooldown: 10
+  ballReference: {fileID: 0}
+  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1001 &3041805250334123293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2432165219676350762, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_Name
+      value: T1 Quarterback Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432165219676350762, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_TagString
+      value: Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390412879143934246, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b2f74e834d1a034d87e4412cec0b333, type: 2}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154225301638337838, guid: 67ca222b044b9ff49aa3448525aa3172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67ca222b044b9ff49aa3448525aa3172, type: 3}
+--- !u!1 &861982635638590519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2432165219676350762, guid: 67ca222b044b9ff49aa3448525aa3172,
+    type: 3}
+  m_PrefabInstance: {fileID: 3041805250334123293}
+  m_PrefabAsset: {fileID: 0}

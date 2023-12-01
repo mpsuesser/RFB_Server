@@ -1,0 +1,14 @@
+Client connects
+Server picks up on TCP connection, sends TCP WelcomeToServer
+Client receives TCP WelcomeToServer
+Client sends UDP UDPHandshakeRequest
+Server receives UDP UdpHandshakeRequest
+Server sends UDP UdpHandshakeReceived
+Client receives UDP UdpHandshakeReceived
+Client sends TCP RequestToJoinLobby
+Server receives TCP RequestToJoinLobby
+Server sends TCP WelcomeToLobby
+Client receives TCP WelcomeToLobby
+
+TODO:
+Start at ClientHandle WelcomeToServer in the TODO comment, take it from there
